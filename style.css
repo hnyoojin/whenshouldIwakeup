@@ -1,0 +1,44 @@
+*{
+    background-color: rgb(43, 14, 122);
+    color: white;
+}
+.welcome{
+    margin: 2%;
+    font-size: 200%;
+    color: yellow;
+}
+.input {
+    margin: 3%;
+}
+.input_message {
+    margin: 100px 0;
+}
+#sleeptime{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    margin: 3%;
+    color: yellow;
+    background-color: black;
+}
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    background-color: rgb(75, 62, 117);
+    color: rgb(0, 255, 30);
+}
+/* JS style -------------------------------------*/
+.time_style{
+    margin:3%;
+    font-weight: bold;
+    color:rgb(255, 0, 225);
+}
+.result_style {
+    margin: 3%;
+    color: greenyellow;
+    font-weight: bold;
+    font-size: 20px;
+}
