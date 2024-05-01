@@ -22,7 +22,7 @@ function calc_sleeptime() {
         
     }
 function calc_waketime() {
-    var wakeTime = document.getElementById('sleepTime').value;
+    var wakeTime = document.getElementById('wakeTime').value;
     if (wakeTime == '') {
     document.getElementById('wake_result').innerHTML = 'What time do you wanna wake up?';
     document.getElementById('wake_result').classList.add('time_style');
