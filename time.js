@@ -1,8 +1,8 @@
 function calc_sleeptime() {
     var sleepTime = document.getElementById('sleepTime').value;
     if (sleepTime == '') {
-    document.getElementById('result').innerHTML = 'When are you gonna sleep?';
-    document.getElementById('result').classList.add('sleeptime_style');
+    document.getElementById('sleep_result').innerHTML = 'When are you gonna sleep?';
+    document.getElementById('sleep_result').classList.add('time_style');
     return;
     }
     
@@ -17,15 +17,15 @@ function calc_sleeptime() {
         results.push(wakeTime.getHours() + 'H ' + wakeTime.getMinutes() + 'M');
     }
     
-    document.getElementById('result').innerHTML = 'When you should wake up: <br><br>' + results.join('<br>');
-    document.getElementById('result').classList.add('result_style');
+    document.getElementById('sleep_result').innerHTML = 'When you should wake up: <br><br>' + results.join('<br>');
+    document.getElementById('sleep_result').classList.add('result_style');
         
     }
 function calc_waketime() {
     var wakeTime = document.getElementById('sleepTime').value;
     if (wakeTime == '') {
-    document.getElementById('result').innerHTML = 'What time do you wanna wake up?';
-    document.getElementById('result').classList.add('sleeptime_style');
+    document.getElementById('wake_result').innerHTML = 'What time do you wanna wake up?';
+    document.getElementById('wake_result').classList.add('time_style');
     return;
     }
     
@@ -40,7 +40,7 @@ function calc_waketime() {
         results.push(wakeTime.getHours() + 'H ' + wakeTime.getMinutes() + 'M');
     }
     
-    document.getElementById('result').innerHTML = 'When you should go to bed: <br><br>' + results.join('<br>');
-    document.getElementById('result').classList.add('result_style');
+    document.getElementById('wake_result').innerHTML = 'When you should go to bed: <br><br>' + results.join('<br>');
+    document.getElementById('wake_result').classList.add('result_style');
         
 }
