@@ -42,3 +42,10 @@ button {
     font-weight: bold;
     font-size: 20px;
 }
+/* font style -----------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+.ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
